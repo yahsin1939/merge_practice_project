@@ -1,0 +1,101 @@
+#main{
+    background-image: url("images/grass_blue_sky_background.jpg");
+    position: absolute;
+    display: block;
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bird{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/bird.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    display: block;
+    position: absolute; 
+    top:200px;
+    left:30px;
+    animation-name: bird;
+    animation-duration: 6s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    
+    
+}   
+@keyframes bird {
+    0% {left:0%; top:30%;}
+    100% {left:90%; top:30%;}
+}
+
+#sun{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(223, 223, 156);
+    background-color:yellow ;
+    border-radius: 50%;
+    box-shadow: 5px 5px 100px yellow;
+    transition: 2s;
+    background-attachment: fixed;
+    display: block;
+    position: absolute; 
+    top:50px;
+    left:50px;
+
+}
+#sun:hover{
+    width: 200px;
+    height: 200px;
+}
+
+#tower{
+    width: 256px;
+    height: 256px;
+    background-image:url(images/lookout_tower.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    position: absolute; 
+    top:27%;
+    left:58%;
+    z-index: 1:
+    
+}
+#windmill{
+    width: 299px;
+    height: 288px;
+    background-image: url(images/windmill-clip.png);
+    background-repeat: no-repeat;
+    background-size: 90%
+    display: block;
+    position: absolute;; 
+    top:10%;
+    left:56.5%;
+}
+
+#cow{
+    width: 350px;
+    height: 200px;
+    background-image: url(images/cow.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: block;
+    position: absolute; 
+    top:56%;
+    left:8%
+}
+#fence{
+    width:425px;
+    height: 215px;
+    background-image: url(images/ft3rail.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    position: absolute; 
+    top:61%;
+    left:4%;
+}
+
+

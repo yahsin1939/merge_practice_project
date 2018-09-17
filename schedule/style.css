@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    color: coral
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    front-size: 2 em;
+}
+
+td{
+    border-bottom: 1px solid yellow ;
+    padding:inherit
+    
+}
+th{
+    color: brown;
+    border: 2px solid white ;
+    background-color:bisque;
+   
+}
+h1{
+    color: darkred
+}
